@@ -1,0 +1,23 @@
+body {
+  font-size: 16px;
+  @include body-font;
+}
+
+a {
+  color: white;
+  &:hover {
+    color: $secondary;
+  }
+}
+
+.page-section {
+  padding: 100px 0;
+  .page-section__title {
+    font-size: 4em;
+    @include titles-font;
+  }
+  .page-section__subtitle {
+    margin-bottom: 4em;
+  }
+
+}

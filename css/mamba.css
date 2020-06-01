@@ -1,0 +1,33 @@
+body {
+  font-size: 16px;
+  font-family: "Manrope", sans-serif;
+}
+
+a {
+  color: white;
+}
+a:hover {
+  color: #08FFC8;
+}
+
+.page-section {
+  padding: 100px 0;
+}
+.page-section .page-section__title {
+  font-size: 4em;
+  font-family: "Quicksand", sans-serif;
+}
+.page-section .page-section__subtitle {
+  margin-bottom: 4em;
+}
+
+.nav {
+  background: #204969;
+  height: 80px;
+}
+.nav ul {
+  display: flex;
+  align-items: center;
+}
+
+/*# sourceMappingURL=mamba.css.map */
