@@ -30,4 +30,21 @@ a:hover {
   align-items: center;
 }
 
+.hero {
+  color: white;
+  height: 100vh;
+  background-image: url("../assets/images/Hero_cover.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+}
+.hero .hero__text {
+  border: 1px solid lightgreen;
+  font-size: 5em;
+}
+.hero .col-6:last-child {
+  text-align: right;
+}
+
 /*# sourceMappingURL=mamba.css.map */
