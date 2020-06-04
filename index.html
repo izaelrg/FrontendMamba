@@ -18,30 +18,28 @@
   <nav class="nav navbar-dark fixed-top">
     <div class="container d-flex justify-content-between align-items-center">
       
-        <a href="/index.html" class="navbar-brand">
+        <a href="/" class="navbar-brand">
           <img src="./assets/images/logo.svg" alt="Mamba" width="30px">
           MambaMentality
         </a>
       
         <ul class="nav">
-          <li class="nav-item"><a class="nav-link" href="">Why Mamba?</a></li>
+          <li class="nav-item"><a class="nav-link" href="#whyMamba">Why Mamba?</a></li>
           <li class="nav-item"><a class="nav-link" href="">Services</a></li>
           <li class="nav-item"><a class="nav-link" href="">Portfolio</a></li>
-          <li class="nav-item"><a class="nav-link" href="">Contact</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
           <li class="nav-item"><a class="nav-link" href="">Sign In</a></li>
         </ul>     
       
     </div>
   </nav>
   
-  <header class="hero d-flex align-items-center">
+  <header class="hero d-flex align-items-center" id="hero">
     <div class="container">
-      <div class="row">
-        <div class="col-6">
-          <p class="hero__text">Talk</p>
-        </div>
-        <div class="col-6">
-          <p class="hero__text">with me!</p>
+      <div class="row text-center">
+        <div class="col">
+          <p class="hero__text">Talk with me!</p>
+          <a href="#contact" class="hero__button">Contact</a>
         </div>
       </div>
     </div>
@@ -69,6 +67,45 @@
         <div class="col">
           <i class="fas fa-video fa-4x mb-3"></i><br />
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat, minus est consequuntur ipsa veritatis deleniti odit sed quisquam corporis non maxime unde similique qui velit dicta aperiam excepturi, adipisci omnis! </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="page-section" id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="col text-center">
+          <h2 class="page-section__title">Contact</h2>
+          <h3 class="page-section__subtitle">Tell me all your doubts!</h3>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12">
+          <form action="">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="form-group">
+                  <label for="name">Name</label>
+                  <input type="text" class="form-control form-control-lg" id="name" placeholder="your Name">
+                </div>
+                <div class="form-group">
+                  <label for="email">Email</label>
+                  <input type="email" class="form-control form-control-lg" id="email" placeholder="your Email">
+                </div>
+                <div class="form-group">
+                  <label for="phone">Phone</label>
+                  <input type="tel" class="form-control form-control-lg" id="phone" placeholder="your Phone">
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="form-group">
+                  <label for="message">Message</label><br />
+                  <textarea class="form-control" name="message" id="message" cols="30" rows="10"></textarea>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
       </div>
     </div>
   </section>
