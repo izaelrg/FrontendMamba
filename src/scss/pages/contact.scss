@@ -13,5 +13,9 @@
   textarea.form-control {
     height: 241px;
   }
+  ::placeholder {
+    font-weight: 700;
+    color: #D4D7DD;
+  }
 }
 

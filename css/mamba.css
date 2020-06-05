@@ -81,5 +81,25 @@ a:hover {
 #contact textarea.form-control {
   height: 241px;
 }
+#contact ::placeholder {
+  font-weight: 700;
+  color: #D4D7DD;
+}
+
+#portfolio .portfolio__image {
+  position: relative;
+  max-width: 100%;
+  height: 275px;
+  margin: 0;
+}
+#portfolio .portfolio__image img {
+  width: 100%;
+  height: 275px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
 
 /*# sourceMappingURL=mamba.css.map */
